@@ -9,6 +9,7 @@ import calendar
 import time
 
 pagasa_link = 'http://121.58.193.173:8080/automatic/table.do'
+msedgedriver_path = 'C:/path/to/msedgedriver.exe' 
 
 headings = {'date': [], 'time': [], 'location': [], 'RF 10 Min [mm]': [], 'RF Daily Sum [mm]': [],
             'WD [deg]': [], 'WS [m/s]': [], 'Max WD [deg]': [], 'Max WS[m/s]': [], 'Temperature [℃]': [],
@@ -135,8 +136,7 @@ def goToMonth(browser, targetDate):
     tmp_df.to_csv(f"{targetDate.year}_{targetDate.month}_pagasa.csv")
 
 if __name__ == "__main__":
-    edge_driver_path = 'C:/Users/julli/msedgedriver.exe' 
-    browser = webdriver.Edge(executable_path=edge_driver_path)
+    browser = webdriver.Edge(executable_path=msedgedriver_path)
 
     browser.get(pagasa_link)
     
