@@ -14,7 +14,11 @@ Team 7 PD1 - for fetching AWS Data from PAGASA
 https://msedgedriver.azureedge.net/119.0.2151.44/edgedriver_win64.zip
 
 locID    |  location
+
 11302301 - la mesa dam
+
 11204301 - port area synop
+
 11105301 - antipolo
+
 11201301 - pasig
