@@ -10,7 +10,7 @@ Team 7 PD1 - for fetching AWS Data from PAGASA
 7. pip install requirements.txt
 8. run fetchpagasadata.py
 
-*download msedgedriver here: 
+*download and extract msedgedriver here: 
 https://msedgedriver.azureedge.net/119.0.2151.44/edgedriver_win64.zip
 
 locID    |  location
