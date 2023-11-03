@@ -2,7 +2,7 @@
 Team 7 PD1 - for fetching AWS Data from PAGASA
 
 1. Create a folder
-2. cd to the created folder
+2. cd to the created folder using cmd or terminal
 3. git clone https://github.com/qjygsantos/FetchPAGASA-AWS.git
 4. Open VS Code
 5. Open the created folder
